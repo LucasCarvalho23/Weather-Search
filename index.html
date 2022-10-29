@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./css/style.css">
+    <title>Fetch API</title>
+</head>
+<body>
+
+    <section>
+
+        <div>
+            <h1>Weather Search</h1>
+        </div>
+
+        <div>
+
+            <p>
+                <form autocomplete = "off">
+                    <input type = "text" id = "search-form-id" placeholder = "Type a location" required>
+                </form>
+            </p>
+            
+            <p id = "messeger-location-id">
+                Enter the location you want to search
+            </p>
+
+        </div>
+
+        <div class = "radio-button-class">
+                <form autocomplete = "off" id = form-radio-id>
+                    <input type = "radio" name = "radio-weather-name" id = "celsius-id" checked> <label for = "celsius-id" class = "radio-class">Celsius</label>
+                    <input type = "radio" name = "radio-weather-name" id = "fahrenheit-id"> <label for = "fahrenheit-id" class = "radio-class">Fahrenheit</label>
+                    <input type = "radio" name = "radio-weather-name" id = "kelvin-id"> <label for = "kelvin-id" class = "radio-class">Kelvin</label>
+                </form>
+        </div>
+
+        <div>
+            <button id = "search-button-id">Search</button>
+        </div>
+
+        <div id = "result-id">
+            <p id = "result-location-id">
+                Location: 
+            </p>
+            <p id = "result-weather-id">
+                Weather: 
+            </p>
+            <p id = "result-type-id">
+                Description: 
+            </p>
+        </div>
+
+        <div>
+            <picture>
+                <img src = "./image/dia-limpo.jpg" alt = "pic-day" id = "image-id">
+            </picture>
+        </div>
+
+    </section>
+
+    <footer>
+        &copy Created by Lucas Carvalho
+    </footer>
+    
+    <script src = "./js/script.js"></script>
+
+</body>
+</html>
